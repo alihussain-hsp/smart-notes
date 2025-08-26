@@ -3,7 +3,16 @@ body {
     font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
     background: #f6f7f8;
 }
-
+h1 {
+    position: fixed;
+    top: 8px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 18px;
+    color: #333;
+    user-select: none;
+    z-index: 1;
+}
 #canvas {
     width: 100vw;
     height: 100vh;
